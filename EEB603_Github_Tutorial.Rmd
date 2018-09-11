@@ -4,11 +4,21 @@ author: "KateMarkham"
 date: "September 6, 2018"
 output: html_document
 ---
+# Online
+
 First register for a github account at www.github.com
 
-Make sure your version of R is updated and current
+# Load necessary R packages
+```{r}
+install.packages("installr")
+install.packages("knitr")
+library(installr)
+library("knitr", lib.loc="~/R/win-library/3.4")
+```
+
+#Make sure your version of R is updated and current
 
 ```{r}
-update.packages(ask = FALSE, checkBuilt = TRUE)
+updateR()
 ```
 
