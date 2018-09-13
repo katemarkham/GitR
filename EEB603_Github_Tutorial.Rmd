@@ -22,3 +22,9 @@ library("knitr", lib.loc="~/R/win-library/3.4")
 updateR()
 ```
 
+#Web resources that are great
+
+http://happygitwithr.com/ 
+
+
+#Glossary
