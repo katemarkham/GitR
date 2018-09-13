@@ -4,6 +4,8 @@ author: "KateMarkham"
 date: "September 6, 2018"
 output: html_document
 ---
+setwd("H:/Coursework/EEB603/EEB603Tutorial")
+
 # Online
 
 First register for a github account at www.github.com
