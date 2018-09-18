@@ -30,3 +30,7 @@ http://happygitwithr.com/
 
 
 #Glossary
+Branch-Parallel version of a repository. Working on a branch allows you to work without changing the live version on the master branch.
+Clone-Copy of a reposity that is on your machine rather than on the server. (Can also act as a verb.) You can sync changes in your cloned copy to remote versions when you are online.
+Commit-Changes to a file. It's similar to a "save as"" but you do not need to rename the file (Git automatically keeps track of each change). 
+Fetch-Grabbing the latest version from an online repository-does not automatically merge this version with your own. 
