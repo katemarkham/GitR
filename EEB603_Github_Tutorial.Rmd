@@ -4,13 +4,15 @@ author: "KateMarkham"
 date: "September 6, 2018"
 output: html_document
 ---
+
+
 setwd("H:/Coursework/EEB603/EEB603Tutorial")
-#testtest
-# Online
+##Online
 
 First register for a github account at www.github.com
+##In R
 
-# Load necessary R packages
+###Load necessary R packages
 ```{r}
 install.packages("installr")
 install.packages("knitr")
@@ -18,19 +20,26 @@ library(installr)
 library("knitr", lib.loc="~/R/win-library/3.4")
 ```
 
-#Make sure your version of R is updated and current
+###Make sure your version of R is updated and current
 
 ```{r}
 updateR()
 ```
 
-#Web resources that are great
+##Web resources that are great
 
 http://happygitwithr.com/ 
+https://services.github.com/on-demand/resources/
 
 
-#Glossary
-Branch-Parallel version of a repository. Working on a branch allows you to work without changing the live version on the master branch.
-Clone-Copy of a reposity that is on your machine rather than on the server. (Can also act as a verb.) You can sync changes in your cloned copy to remote versions when you are online.
-Commit-Changes to a file. It's similar to a "save as"" but you do not need to rename the file (Git automatically keeps track of each change). 
-Fetch-Grabbing the latest version from an online repository-does not automatically merge this version with your own. 
+##Glossary
+**Branch**-Parallel version of a repository. Working on a branch allows you to work without changing the live version on the master branch.
+**Clone**-Copy of a reposity that is on your machine rather than on the server. (Can also act as a verb.) You can sync changes in your cloned copy to remote versions when you are online.
+**Commit**-Changes to a file. It's similar to a "save as"" but you do not need to rename the file (Git automatically keeps track of each change). 
+**Fetch**-Grabbing the latest version from an online repository-does not automatically merge this version with your own. 
+**Fork**-Your own copy of another user's repository that remains on your own account. This allows you to make changes without affecting the original. You can pull updates from the original user's repository.
+**Pull**-Grabs new changes and merges them with your own copies. If you need to grab new changes but not merge them, see "fetch."
+**Push**- Send your changes to a remote repository. If you make changes and you want your collaborators to see them, you need to push your changes.
+**Repository**-The place where all of the project's files are stored. A repository also records the file's revision history. Can be public or private and can have multuple collaborators.
+
+For more terms, see https://help.github.com/articles/github-glossary/
