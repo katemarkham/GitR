@@ -15,7 +15,7 @@ setwd(base_data_directory)
 
 ###Load necessary R packages
 ```{r echo=FALSE, include=FALSE}
-if(!require("installr")) install.packages("installr")
+#if(!require("installr")) install.packages("installr")
 if(!require("knitr")) install.packages("knitr")
 if(!require("knitcitations")) install.packages("knitcitations")
 if(!require("bookdown")) install.packages("bookdown")
@@ -23,7 +23,7 @@ if(!require("kfigr")) install.packages("kfigr")
 
 
 
-library("installr", lib.loc="~/R/win-library/3.4")
+#library("installr", lib.loc="~/R/win-library/3.4")
 library(knitr)
 library(knitcitations)
 library(bookdown)
