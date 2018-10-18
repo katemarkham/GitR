@@ -1,7 +1,7 @@
 ---
 title: "EEB603_Github_Tutorial"
 authors: "Kate Markham and Jason Winiarski"
-date: "October 16, 2018"
+date: "October 18, 2018"
 output:
   pdf_document:
     toc: yes
@@ -12,6 +12,7 @@ bibliography: GitHub.bib
 base_data_directory<- "H:/Coursework/EEB603/EEB603Tutorial"
 result_path <- "H:/Coursework/EEB603/EEB603Tutorial/Results"
 setwd(base_data_directory)
+
 ###Load necessary R packages
 ```{r echo=FALSE, include=FALSE}
 if(!require("installr")) install.packages("installr")
@@ -179,7 +180,7 @@ Once you've edited the file and are ready to share it, click the Git button in R
 7. Push your changes. **This is when your work goes to the GitHub repository!**
 
 ```{r figure5, echo=FALSE, fig.cap="Figure 5. Sharing your code with RStudio and Git", out.width = '100%'}
-knitr::include_graphics("Git_and_RStudio.png")
+knitr::include_graphics("RStudio_and_Git.png")
 ```
 
 ##.gitignore
