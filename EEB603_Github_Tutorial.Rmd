@@ -12,8 +12,7 @@ bibliography: GitHub.bib
 ---
 \newpage
 ##Set-up in R
-base_data_directory<- "H:/Coursework/EEB603/Tutorial"
-setwd(base_data_directory)
+setwd(H:/Coursework/EEB603/gitHubRStudio)
 
 ###Load necessary R packages
 ```{r echo=FALSE, include=FALSE}
@@ -187,13 +186,13 @@ knitr::include_graphics("RStudio_and_Git.png")
 ##.gitignore
 If you have files that you want to keep on your local machine but do not want to share to GitHub for whatever reason, you can do this through your .gitignore file within your repository.
 
-On your local machine
+#####On your local machine
 1. Navigate to where your repository is on your machine and  open .gitignore in a text editor  
 2. Add the file you want to ignore  
 3. Save it  
 
 
-On GitHub
+#####On GitHub
 1. Navigate to your repository and open .gitignore
 2. Click the pencil next to the trashcan symbol 
 3. Add the file you want to ignore
@@ -207,10 +206,47 @@ https://github.com/pricing
 2. Team permissions  
 3. Backups  
 
+#To create a repository from an existing project
+
+##Create the remote repository online:  
+1. Click on your profile  
+2. Click "Repositories" at the top  
+3. Click the green button "New"   
+4. Unlike previously, do not initialize with a README
+##### On Git Bash/Command Prompt
+5. Go to Git Bash  
+6. Check your current working directory by typing  
+pwd  
+7. Find the path name for your local repository  
+6. Type the full folder name 
+cd  H:/Coursework/EEB603/gitHubRStudio  
+7. Type  
+git init  
+to initialize your repository  
+8. Add the files within your local repository by typing
+git add .  
+and make sure the spacing matches!  
+9. Type  
+git commit -m "This is my first commit"  
+to write a comment for your commit  
+10. Copy the url for your repository from GitHub, the one you just created  
+11. Type  
+git remote add origin AND THEN THE URL    
+12. Type  
+git remote -v  
+to verify the new remote URL
+13. Push the changes by typing  
+git push -u origin    
+
+For more help, see here https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/  
+
+If you get an error that "remote origin already exists" try  
+git remote set-url origin AND THEN THE URL
+
 ##Student Developer Pack
 https://education.github.com/pack
 
-With the student developer pack, users have 
+With the student developer pack, users have  
 1. Unlimited private repositories  
 2. Unlimited collaborators  
 
